@@ -135,10 +135,21 @@ function Home() {
           <div className="col-lg-12 order-2 order-lg-1 mt-3 mt-lg-0">
   <div className="row">
     {/* Project 1 */}
-    <div className="col-6 col-lg-3 text-center mb-4">
+    {/* <div className="col-6 col-lg-3 text-center mb-4">
       <img src="assets/img/air-conditioning/1.jpg" className="img-fluid rounded mb-2" alt="Project 1" />
       <h6>A</h6>
-    </div>
+    </div> */}
+    <div
+  className="col-6 col-lg-3 text-center mb-4"
+  style={{ border: "2px solid yellow", padding: "2px" }}
+>
+  <img
+    src="assets/img/air-conditioning/1.jpg"
+    className="img-fluid rounded mb-2"
+    alt="Project 1"
+  />
+  <h6>A</h6>
+</div>
 
     {/* Project 2 */}
     <div className="col-6 col-lg-3 text-center mb-4">
