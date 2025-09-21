@@ -19,10 +19,10 @@ function Home() {
       </div>
     </div>
     <div id="hero-carousel" className="carousel slide" data-bs-ride="carousel" data-bs-interval={5000}>
-      <div className="carousel-item">
+      <div className="carousel-item active">
         <img src="assets/img/slide/1.jpg" alt />
       </div>
-      <div className="carousel-item active">
+      <div className="carousel-item">
         <img src="assets/img/slide/2.jpg" alt />
       </div>
       <div className="carousel-item">
